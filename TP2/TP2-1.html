@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TP2-1</title>
+        <link rel="stylesheet" href="TP2-1.css"/>
+    </head>
+    <body>
+        <form action="TP2-1.php" method="POST" class="formDon">
+            <div class="formDon">
+                <label for="Nom">Nom: </label>
+                <input type="text" name="Nom" id="Nom" required>
+            </div>
+            <div class="formDon">
+                <label for="Age">Age: </label>
+                <input type="number" name="Age" id="Age" required>
+            </div>
+            <div class="formDon">
+                <label for="Mail">Mail: </label>
+                <input type="email" name="Mail" id="Mail" required>
+            </div>
+            <div class="formDon">
+                <label for="Don">Valeur en € du don: </label>
+                <input type="number" name="Don" id="Don" required>
+            </div>
+            <div class="formDon">
+                <table>
+                    <tr>
+                        <td><input type="submit" value="OK"></td>
+                        <td><input type="submit" formnovalidate formaction="TP2-2.php" value="Resultat"></td>
+                    </tr>
+            </div>
+        </form>
+    </body>
+</html>

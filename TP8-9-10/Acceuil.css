@@ -1,0 +1,43 @@
+header
+{
+    background-color: antiquewhite;
+}
+
+body{
+    background-color: darkgray;
+}
+
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    white-space: pre-line;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.Titre{
+    font-weight: bold;
+}
+
+p{
+    bottom: 0%;
+    top: 0%;
+}
+
+.styled:hover {
+    cursor: pointer;
+}
+
+
+.titre{
+    background-color: brown;
+    width: 170px;
+    height: 300px;
+}
+
+.menu{
+    background-color: brown;
+    width: 200px;
+    height: 20px;
+}
